@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.App {
+  position: absolute;
+  width: 360px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 7px;
+
+  background: #f6f6f6;
+  height: 700px;
+}
+.currencyHeading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border-radius: 751px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #eaeafe 0%,
+    rgba(221, 246, 243, 0) 100%
+  );
+}
+.convertorContainer{
+    display: flex;
+    justify-content: center;
+}
